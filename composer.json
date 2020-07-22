@@ -1,0 +1,25 @@
+{
+    "name": "jurchiks/numbers2words_twig",
+    "description": "Twig extension for jurchiks/numbers2words",
+    "keywords": [
+        "numbers",
+        "currency",
+        "spell"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Juris Sudmalis",
+            "email": "jurchiks101@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "js\\tools\\numbers2words\\twig\\": "src/"
+        }
+    }
+}
