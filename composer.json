@@ -9,7 +9,12 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "twig/twig": "^3.0"
+        "php": ">=7.4.0",
+        "twig/twig": "^3.0",
+        "jurchiks/numbers2words": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
     },
     "authors": [
         {
@@ -21,5 +26,8 @@
         "psr-4": {
             "js\\tools\\numbers2words\\twig\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "phpunit tests"
     }
 }
