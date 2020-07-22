@@ -25,7 +25,7 @@ class SpellerExtension extends AbstractExtension
     }
 
     /** @codeCoverageIgnore */
-    public function getFilters()
+    public function getFunctions()
     {
         return [
             new TwigFunction('spellNumber', [$this, 'spellNumber']),
